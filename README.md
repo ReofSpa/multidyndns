@@ -40,5 +40,6 @@ The script just detects the equal sign at the very end of the query and adds the
 Btw, on the Synology NAS it shows the update partly as failed. No idea why, but still it works. Maybe it expects a certain reply. If you have an idea, kindly give me a hint.
 # Limitations
 * The script does only minor checks on validity, so use it at own's risk (I am not responsible for any issues caused by it).
+* For the Synology feature: I assume that IPv6 changes are always triggered at the same time of IPv4 changes. I doubt that the IPv6 changes without an IPv4 change. But you never know. The script will not be able to update in this case.  
 * I am not a professional programmer. Code might be ugly or strange to some extent, but it works (at least for me).
 * If you work with IPv6, make sure you understand the difference between IPv4 (NAT concept) vs. IPv6 (direct address), so running a web server behind the router has the same IPv4 but a different IPv6 address.
