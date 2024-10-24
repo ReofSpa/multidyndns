@@ -33,6 +33,6 @@ foreach($aQuery as $sQuery){
 	}
 	file_get_contents($sQuery);
 }
-echo "Good";
+echo "good";
 
 ?>
